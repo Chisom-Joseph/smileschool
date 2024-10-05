@@ -9,7 +9,7 @@ import heroImage4 from "/assets/images/heroImage4.png";
 
 const HeroSection = () => {
   return (
-    <div className="bg-hero-bg bg-cover bg-no-repeat min-h-[100dvh]">
+    <section className="bg-hero-bg bg-cover bg-no-repeat min-h-[100dvh]">
       <div className="min-h-[100dvh] text-white pt-[13em] pb-[5em] backdrop-grayscale hero-gradient">
         <h1 className="font-bold text-[7.2em] leading-[1em]">Get schooled</h1>
         <div className="flex align-center justify-center gap-[3.5em] mb-[2.5em] tracking-[0.08em] text-[0.95em]">
@@ -46,7 +46,7 @@ const HeroSection = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

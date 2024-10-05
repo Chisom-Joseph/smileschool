@@ -2,7 +2,7 @@ import testimonialImage from "/assets/images/testimonialImage.png";
 
 const TestimonialsSection = () => {
   return (
-    <div className="text-[1.1em] text-left bg-purple text-white grid place-content-center p-[5em] tracking-[0.05em]">
+    <section className="text-[1.1em] text-left bg-purple text-white grid place-content-center p-[5em] tracking-[0.05em]">
       <div className="flex items-center  max-w-[50em]">
         <div className="rounded-[50%] overflow-hidden w-fit">
           <img
@@ -20,7 +20,7 @@ const TestimonialsSection = () => {
           <p className="font-[200] italic">weather presenter</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

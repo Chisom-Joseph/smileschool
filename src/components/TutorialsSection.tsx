@@ -14,7 +14,7 @@ const TutorialsSection = () => {
 
   return (
     <section className="p-[5em] m-auto max-w-[80em]">
-      <p className="font-[100] text-[1.85em] mb-[2em]">
+      <p className="font-[100] text-[1.85em] mb-[2.5em]">
         Most
         <span className="font-[700] text-purple"> popular</span> tutorials
       </p>

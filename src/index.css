@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Source Sans Pro";
+  src: url("/fonts/SourceSans3VF-Upright.otf.woff");
+}
+@layer components {
+  .hero-gradient {
+    background-image: linear-gradient(
+      to top,
+      #071629 5%,
+      #071629fa 10%,
+      #071629e8 20%,
+      #07162911 100%
+    );
+  }
+  .btn {
+    @apply bg-purple py-[0.9em] px-[1.6em] rounded-[2em] font-[300] text-[0.75em] tracking-[0.08em];
+    box-shadow: 0 0 0.5em 0.5em rgba(0, 0, 0, 0.11);
+  }
+}

@@ -11,7 +11,9 @@ const HeroSection = () => {
   return (
     <section className="bg-hero-bg bg-cover bg-no-repeat min-h-[100dvh]">
       <div className="min-h-[100dvh] text-white pt-[13em] pb-[5em] backdrop-grayscale hero-gradient">
-        <h1 className="font-bold text-[7.2em] leading-[1em]">Get schooled</h1>
+        <h1 className="font-bold text-[7.2em] leading-[1em] px-[1em]">
+          Get schooled
+        </h1>
         <div className="flex align-center justify-center gap-[3.5em] mb-[2.5em] tracking-[0.08em] text-[0.95em]">
           <span>SMILES</span>
           <span>GRIN</span>
@@ -23,7 +25,7 @@ const HeroSection = () => {
         <p className="font-[100] text-[1.85em]  mt-[5em] mb-[2.5em]">
           <span className="font-[700] text-purple">Learn</span> from the pros
         </p>
-        <div className="flex items-center justify-between max-w-[60em] m-auto">
+        <div className="flex flex-wrap items-center justify-center gap-[6.5em] gap-y-[3em] max-w-[65em] px-[3em] m-auto">
           <ProCard
             image={heroImage1}
             name="Phillip Massey"

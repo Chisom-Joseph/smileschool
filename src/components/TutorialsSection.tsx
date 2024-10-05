@@ -32,7 +32,7 @@ const TutorialsSection = () => {
           title="Sad Smile"
           description="Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod."
           owner={owner}
-          starCount={4}
+          starCount={3}
           uploadTime="8 min"
         />
         <TutorialCard
@@ -48,7 +48,7 @@ const TutorialsSection = () => {
           title="Happy Smile"
           description="Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod."
           owner={owner}
-          starCount={4}
+          starCount={2}
           uploadTime="8 min"
         />
       </div>

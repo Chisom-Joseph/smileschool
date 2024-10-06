@@ -7,9 +7,7 @@ const Layout = () => {
   return (
     <div className="font-source-sans-pro">
       <Header />
-      <main>
-        <Outlet />
-      </main>
+      <Outlet />
       <Footer />
     </div>
   );

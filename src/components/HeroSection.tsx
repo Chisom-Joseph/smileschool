@@ -9,12 +9,12 @@ import heroImage4 from "/assets/images/heroImage4.png";
 
 const HeroSection = () => {
   return (
-    <section className="bg-hero-bg bg-cover bg-no-repeat min-h-[100dvh]">
-      <div className="min-h-[100dvh] text-white pt-[13em] pb-[5em] backdrop-grayscale hero-gradient">
-        <h1 className="font-bold text-[7.2em] leading-[1em] px-[1em]">
+    <section className="min-h-[100dvh] max-w-[100vw] bg-hero-bg bg-cover bg-no-repeat">
+      <div className="hero-gradient min-h-[100dvh] pb-[5em] pt-[13em] text-white backdrop-grayscale">
+        <h1 className="px-[0.5em] text-[5em] font-bold leading-[1em] md:px-[1em] md:text-[7.2em]">
           Get schooled
         </h1>
-        <div className="flex align-center justify-center gap-[3.5em] mb-[2.5em] tracking-[0.08em] text-[0.95em]">
+        <div className="align-center mb-[2.5em] flex justify-center gap-[3.5em] text-[0.95em] tracking-[0.08em]">
           <span>SMILES</span>
           <span>GRIN</span>
           <span>LAUGH</span>
@@ -22,10 +22,10 @@ const HeroSection = () => {
         <Link to="/" className="btn">
           REGISTER FOR FREE
         </Link>
-        <p className="font-[100] text-[1.85em]  mt-[5em] mb-[2.5em]">
+        <p className="mb-[2.5em] mt-[5em] text-[1.85em] font-[100]">
           <span className="font-[700] text-purple">Learn</span> from the pros
         </p>
-        <div className="flex flex-wrap items-center justify-center gap-[6.5em] gap-y-[3em] max-w-[65em] px-[3em] m-auto">
+        <div className="m-auto flex max-w-[65em] flex-wrap items-center justify-center gap-[6.5em] gap-y-[3em] px-[3em]">
           <ProCard
             image={heroImage1}
             name="Phillip Massey"

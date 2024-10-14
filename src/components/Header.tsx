@@ -23,7 +23,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="absolute left-[50%] top-0 z-50 flex w-full max-w-[70em] translate-x-[-50%] items-center justify-between px-[4em] py-[2em] text-white">
+    <header className="absolute left-[50%] top-0 z-50 flex w-full max-w-[70em] translate-x-[-50%] items-center justify-between px-[2em] py-[2em] text-white md:px-[4em]">
       <img className="w-[9em]" src={logo} alt="logo" />
       <div className="relative" ref={navRef}>
         <nav
